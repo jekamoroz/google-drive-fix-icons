@@ -39,4 +39,7 @@ sudo cp "mac-paused-inverse.png" "mac-paused.png" && sudo cp "mac-paused-inverse
 sudo cp /tmp/google-drive-folder-icon.icns lib/python2.7/resources/images/folder-mac.icns
 sudo cp /tmp/google-drive-folder-icon.icns lib/python2.7/resources/images/sharedfolder-mac.icns
 
+# folder-icon in user folder
+sudo cp /tmp/google-drive-folder-icon.icns ~/Google\ Drive/Icon
+
 sudo rm /tmp/google-drive-folder-icon.icns
